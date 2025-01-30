@@ -1,0 +1,25 @@
+"/user/api/addUser",
+    "/user/api/addRole",//done
+    "/helperservice/api/addProduct",//
+    "/helperservice/api/updateProduct",//
+    "/helperservice/api/getProduct",//
+    "/helperservice/api/deleteProduct",//
+    "/helperservice/api/addCustomer",
+    "/helperservice/api/updateCustomer",
+    "/helperservice/api/getCustomer",
+    "/helperservice/api/deleteCustomer",
+    "/helperservice/api/addGeneral",
+    "/helperservice/api/updateGeneral",//
+    "/helperservice/api/getGeneral",
+    "/helperservice/api/deleteGeneral",
+    "/helperservice/api/addSupplier",
+    "/helperservice/api/updateSupplier",
+    "/helperservice/api/getSupplier",
+    "/helperservice/api/deleteSupplier",//
+    "/plantmicroservice/api/addSite",
+    "/plantmicroservice/api/updateSite",
+    "/plantmicroservice/api/getSite",
+    "/plantmicroservice/api/deleteSite",
+    "/plantmicroservice/api/AddBuilding",
+    "/plantmicroservice/api/updateBuilding",
+    "/plantmicroservice/api/getBuilding"//

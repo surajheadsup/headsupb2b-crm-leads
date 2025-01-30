@@ -1,0 +1,21 @@
+
+export const supplierMasterVariable = {
+    supplierName : 'supplierName',
+    supplierCode : 'supplierCode',
+    supplierGroup : 'supplierGroup',
+    supplierContactEmail : 'supplierContactEmail',
+    supplierType:'supplierType',
+    supplierAddress1 : 'supplierAddress1',
+    supplierAddress2 : 'supplierAddress2',
+    supplierLandmark : 'supplierLandmark',
+    supplierCity : 'supplierCity',
+    supplierState : 'supplierState',
+    supplierPostCode : 'supplierPostCode',
+    supplierCountry : 'supplierCountry',
+    supplierContactPhone : 'supplierContactPhone',
+    supplierGst : 'supplierGst',
+    supplierPan : 'supplierPan',
+    supplierStatus : 'supplierStatus',
+    supplierVat : 'supplierVat',
+    supplierTan : 'supplierTan',
+}

@@ -1,0 +1,112 @@
+import { leadMaster, purchaseMaster } from "../Constant/Common/common-variable";
+
+
+export const routes = {
+  panel: {
+    dashboard: '/',
+    master: {
+      users: '/master/users',
+      rolesAndPermission: '/master/roles-and-permission',
+      addRole: '/master/roles-and-permission/add-role',
+      editRole: '/master/roles-and-permission/edit-role/',
+      editRoleRoute: '/master/roles-and-permission/edit-role/:id',
+      siteMaster: '/master/site',
+      buildingsMaster: '/master/building',
+      productMaster: '/master/product',
+      createProduct: '/master/product/create',
+      editProduct: '/master/product/edit/',
+      editProductRoute: '/master/product/edit/:id',
+      customerMaster: '/master/customer',
+      createCustomer: '/master/customer/create',
+      editCustomer: '/master/customer/edit/',
+      editCustomerRoute: '/master/customer/edit/:id',
+
+      supplierMaster: '/master/supplier',
+      createSupplier: '/master/supplier/create',
+      editSupplier: '/master/supplier/edit/',
+      editSupplierRoute: '/master/supplier/edit/:id',
+      generalMaster: '/master/general',
+      mappingMaster: '/master/mapping-master',
+      // readerBuildingMappingMaster : '/master/reader-builing-mapping',
+      zomeMaster: '/master/zone',
+      locationMaster: '/master/location',
+      tagMaster: '/master/tag',
+      addTagMaster: '/master/tag/add',
+      configurationMaster: '/master/configuration',
+      createConfigurationMaster: '/master/configuration/create',
+      editConfigurationMaster: '/master/configuration/edit/:id',
+      vehicleMaster: '/master/vehicle',
+      innventoryMaster: '/master/inventory',
+      inventoryInventories: '/master/inventory/:id',
+      purchaseMaster : '/master/purchase-master',
+      createPurchase : '/master/purchase-master/create-purchase',
+      quatationMaster : '/master/quotation-master',
+      createQuotation : '/master/quotation-master/create-quotation',
+      leadMaster : '/master/lead-master',
+      createLead : '/master/lead-master/create-lead',
+
+
+    },
+    device: {
+      readerMaster: '/device/reader',
+      createReader: '/device/reader/add',
+      editReader: '/device/reader/edit/:id',
+      readerConfiguration: '/device/reader/reader-configuration/:id',
+      readerReplacementMaster: '/device/reader-replacement',
+      readerHealthMaster: '/device/reader-health',
+      readerBuildingMappingMaster: '/device/reader-builing-mapping',
+      weighingScale: '/device/weighingscale',
+      createWeighingScale: '/device/weighingscale/create',
+      editWeighingScale: '/device/weighingscale/edit/:id',
+
+    },
+    deviceManager: {
+      devices: '/device-manager/devices',
+      addDevice: '/device-manager/devices/add',
+      editDevice: '/device-manager/devices/edit/',
+      editDeviceRoute: '/device-manager/devices/edit/:id',
+      broker: '/device-manager/broker',
+      configuration: '/device-manager/configuration',
+      addConfiguration: '/device-manager/configuration/add',
+      editConfiguration: '/device-manager/configuration/edit/',
+      editConfigurationRoute: '/device-manager/configuration/edit/:id',
+      apiService: '/device-manager/api-service',
+      mapper: '/device-manager/mapper',
+      addMapper: '/device-manager/mapper/add',
+      editMapper: '/device-manager/mapper/edit/',
+      editMapperRoute: '/device-manager/mapper/edit/:id',
+      certificates: '/device-manager/certificates',
+      addCertificates: '/device-manager/certificates/add',
+      addbroker: '/device-manager/broker/add',
+      editbroker: '/device-manager/broker/edit/:id',
+      apiService: '/device-manager/api-service',
+      mapper: '/device-manager/mapper',
+      certificates: '/device-manager/certificates',
+      addCertificates: '/device-manager/certificates/add',
+      editCertificates: '/device-manager/certificates/edit/:id',
+    },
+    order: {
+      order: '/order/order',
+      inboundOrder: '/inbound-order',
+      outboundOrder: '/outbound-order',
+      createInboundOrder: '/inbound-order/create',
+      createOuboundOrder: '/outbound-order/create',
+      createInboundOrderRoute: '/inbound-order/create/:id/:type',
+      createOuboundOrderRoute: '/outbound-order/create/:id/:type',
+      editInboundOrder: '/inbound-order/edit',
+      editInboundOrderRoute: '/inbound-order/edit/:id/:type',
+      createOrder: '/order/create',
+      createOrderRoute: '/order/create/:id/:type',
+
+    },
+    test: {
+      customRole: 'master/roles-and-permission/custom-role',
+    },
+    account: {
+      myProfile: '/account/profile'
+    },
+    access: {
+      blocked: '/access-denied'
+    }
+  },
+};
